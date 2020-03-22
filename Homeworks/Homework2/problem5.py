@@ -23,16 +23,6 @@ wd_name=calendar.day_name[wd_num]
 print(wd_name)
 
 #f)
-# birthday_mounth=datetime.datetime(2000,8,18).month
-# print(birthday_mounth)
-# birthday_day=datetime.datetime(2000,8,18).day
-# print(birthday_day)
-
-
-# print(time.localtime())
-
-
-
 year = int(input('please , input your birthyday (year)  ` '))
 month = int(input('please , input your birthyday (month) ` '))
 day = int(input('please , input your birthyday (day) ` '))
