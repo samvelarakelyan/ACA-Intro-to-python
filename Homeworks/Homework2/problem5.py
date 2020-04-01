@@ -34,16 +34,6 @@ finaly = (birthday - now.today()).days + 1
  
 print(finaly if finaly > 0 else 365 - abs(finaly),'days left until your next birthday')
 
-#without if/else----------------------------------
-year = datetime.date(2000,8,18).year
-month = datetime.date(2000,8,18).month
-day = datetime.date(2000,8,18).day
-
-now = datetime.datetime.now()
-birthday = datetime.datetime(now.year,month,day)
-finaly = (birthday - now.today()).days + 1
- 
-print(finaly,'days left until your next birthday')
 
 """
 3)
