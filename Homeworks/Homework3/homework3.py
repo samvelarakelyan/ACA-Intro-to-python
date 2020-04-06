@@ -167,6 +167,7 @@ print("market before updateing:",market)
 market.update({"candies":["mars","kinder","twix"]})
 print("market after updateing:",market)
 
+market["fruits"]=list(set(market["fruits"]))
 market["fruits"].sort()
 print(market)
 
