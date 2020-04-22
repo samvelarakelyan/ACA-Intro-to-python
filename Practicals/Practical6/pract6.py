@@ -4,8 +4,8 @@
 #1)
 class Circle:
     def __init__(self, radius:float, color:str):
-        self.radius=radius
-        self.color=color
+        self.radius = radius
+        self.color = color
         
     def getDesc(self):
         print("A %s color circle with radius %.2f" %(self.color, self.radius))
@@ -30,7 +30,7 @@ c5.getDesc()
 #2)
 class String:
     def __init__(self, my_str:str):
-        self.my_str=my_str
+        self.my_str = my_str
     
     def get_String(self):
         return self.my_str
@@ -79,7 +79,7 @@ class Employee:
     def __init__(self, name:str, lastname:str, monthly_salary:int):
         self.name = name
         self.lastname = lastname
-        self.__monthly_salary=monthly_salary
+        self.__monthly_salary = monthly_salary
         
     def get_FullName(self):
         return self.name, self.lastname
@@ -175,23 +175,23 @@ INHERITANCE
 ------------
 """
 #6)
-# class Animal:
-#     def __init__(self, name:str):
-#         self.name = name
+class Animal:
+    def __init__(self, name:str):
+        self.name = name
         
-#     def move(self):
-#         print("I can move") 
+    def move(self):
+        print("I can move") 
 
 
-# class Dog(Animal):
-#     def __init__(self):
-#         Animal.__init__(self, "Dog")
-#     def move(self):
-#         print("I can run really fast")
+class Dog(Animal):
+    def __init__(self):
+        Animal.__init__(self, "Dog")
+    def move(self):
+        print("I can run really fast")
                 
 
-# dog = Dog()
-# dog.move()
+dog = Dog()
+dog.move()
         
     
 
@@ -246,52 +246,3 @@ class Hav(Bird):
 havik = Hav("Chalo", 6.5)
 havik.fly()    
     
-        
-    
-
-             
-
-
-        
-        
-        
-        
-        
-
-        
-        
-        
-        
-        
-        
-
-    
-
-
-
-
-
-
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-
