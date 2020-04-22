@@ -131,19 +131,3 @@ car_bmw = Car("BMW", "red")
 
 car_bmw.printModel()
 car_bmw.printColor()
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
