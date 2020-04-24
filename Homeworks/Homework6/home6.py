@@ -17,7 +17,7 @@ class Person:
         return self.__password
         
     def Greeting(self, second_person):
-        print("Welcome dear", self.name)
+        print("Welcome dear", second_person.name)
     
     def Goodbye(self):
         print("Bye everyone!")
